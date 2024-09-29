@@ -2,6 +2,8 @@
 
 [Projeto no Wokwi](https://wokwi.com/projects/410221919973964801)
 
+[Video de Explicação](https://youtu.be/oCPU1WJsFvY)
+
 ## 🤖 Edge Computing & Computer Systems
 
 Entrega da matéria Edge Computing & Computer Systems para CHALLENGE Mahindra Sprint 3.
@@ -35,6 +37,10 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 - Dashboard Node-RED:
 <img src="./img/Dashboard.png"></img>
 
+## 💡 Draft da Arquitetura
+
+<img src="./img/Draft.jpg"></img>
+
 ## 🔨 Ferramentas
 
 - [ESP32](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/index.html)
@@ -50,6 +56,14 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 - Simulador: [Wokwi](https://wokwi.com/)
 - IDE: [ArduinoIDE](https://www.arduino.cc/en/software)
+
+### 📚 Bibliotecas Utilizadas:
+
+``` c++
+#include <ArduinoJson.h>
+#include <WiFi.h>
+#include <PubSubClient.h>
+```
 
 ### 📄 Componentes Utilizados
 
@@ -68,15 +82,6 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 - [LED Verde:](https://docs.wokwi.com/pt-BR/parts/wokwi-led) Entrada digital 2 do ESP32 (utilize um resistor de 220Ω).
 - [LED Roxo:](https://docs.wokwi.com/pt-BR/parts/wokwi-led) Entrada digital 15 do ESP32 (utilize um resistor de 220Ω).
-
-
-### 📚 Bibliotecas Utilizadas:
-
-``` c++
-#include <ArduinoJson.h>
-#include <WiFi.h>
-#include <PubSubClient.h>
-```
 
 ## 📒 Instruções de Uso
 
