@@ -86,6 +86,8 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 - Iniciar a simulação no botão 'Start the simulation'.
 - Aguardar a conexão ao WiFi e ao Borker MQTT.
 - Altere os valores dos [Sensores de Distância Ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
+- Abrir o [Node-RED](https://nodered.org/docs/) localmente em seu dispositivo.
+- Carregar o arquivo .json do fluxo para o [Node-RED](https://nodered.org/docs/).
 - Estabelecer a conexão com o [Node-RED](https://nodered.org/docs/).
 - Observar os dados apresentados no Dashboard do [Node-RED](https://nodered.org/docs/).
 
@@ -94,5 +96,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 - Monte o circuito em uma placa [ESP32](https://docs.wokwi.com/pt-BR/guides/esp32), conectando cada pino dos componentes em suas respectivas entradas.
 - Carregue o código deste repositório através do [ArduinoIDE](https://www.arduino.cc/en/software).
 - Altere os valores dos [Sensores de Distância Ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
+- Abrir o [Node-RED](https://nodered.org/docs/) localmente em seu dispositivo.
+- Carregar o arquivo .json do fluxo para o [Node-RED](https://nodered.org/docs/).
 - Estabelecer a conexão com o [Node-RED](https://nodered.org/docs/).
 - Observar os dados apresentados no Dashboard do [Node-RED](https://nodered.org/docs/).
