@@ -1,6 +1,6 @@
 # 🏎️ CHALLENGE Mahindra Sprint 3
 
-[Projeto no Wokwi]()
+[Projeto no Wokwi](https://wokwi.com/projects/410221919973964801)
 
 ## 🤖 Edge Computing & Computer Systems
 
@@ -82,7 +82,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 ### 🖥️ Simulador
 
-- Abrir o [Projeto no Wokwi]().
+- Abrir o [Projeto no Wokwi](https://wokwi.com/projects/410221919973964801).
 - Iniciar a simulação no botão 'Start the simulation'.
 - Aguardar a conexão ao WiFi e ao Borker MQTT.
 - Altere os valores dos [Sensores de Distância Ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
