@@ -54,7 +54,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 ### 📄 Componentes Utilizados
 
 - [ESP32:](https://docs.wokwi.com/pt-BR/guides/esp32) Controlar os demais componentes.
-- 2x [Sensores de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Iniciar as mediçoes da velociade (Ponto inicial e Ponto final).
+- 2x [Sensores de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Iniciar as medições da velocidade (Ponto inicial e Ponto final).
 - 2x [LEDs:](https://docs.wokwi.com/pt-BR/parts/wokwi-led) Feedback visual da conexão ao WiFi e MQTT.
 - 6x [Resistores:](https://docs.wokwi.com/pt-BR/parts/wokwi-resistor) Conversão para a voltagem adequada de cada um dos componentes.
 
