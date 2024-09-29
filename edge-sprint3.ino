@@ -55,21 +55,21 @@ void setup_wifi() {
   }
 
   Serial.println("");
-  Serial.println("WiFi conectado");
-  Serial.println("Endereco IP: ");
+  Serial.println("WiFi Conectado");
+  Serial.print("Endereco IP: ");
   Serial.println(WiFi.localIP());
 }
 
 // Função para estabelecer conexão com MQTT
 void reconnect() {
   while (!client.connected()) {
-    Serial.print("Tentando conexão MQTT...");
+    Serial.println("Tentando conexão MQTT...");
     if (client.connect("WOKWI_Client")) {
-      Serial.println("conectado");
+      Serial.println("Conectado");
     } else {
-      Serial.print("falhou, rc=");
+      Serial.print("Falhou, rc=");
       Serial.print(client.state());
-      Serial.println(" tentando novamente em 5 segundos");
+      Serial.println(" Tentando Novamente em 5 Segundos");
       delay(5000);
     }
   }
