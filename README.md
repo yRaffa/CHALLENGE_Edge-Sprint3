@@ -1,8 +1,8 @@
 # 🏎️ CHALLENGE Mahindra Sprint 3
 
-[Projeto no Wokwi](https://wokwi.com/projects/410221919973964801)
+⚡ [Projeto no Wokwi](https://wokwi.com/projects/410221919973964801)
 
-[Video de Explicação](https://youtu.be/oCPU1WJsFvY)
+🎞️ [Video de Explicação](https://youtu.be/oCPU1WJsFvY)
 
 ## 🤖 Edge Computing & Computer Systems
 
